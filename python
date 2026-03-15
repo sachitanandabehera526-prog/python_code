@@ -1,0 +1,58 @@
+# a =[2,4,6]
+# sum(a)
+# print(sum(a))
+
+# a =[1,2,3,4,5]
+# if a==2
+# print("even")
+# else:
+# print("odd")
+
+# a = [-1,0,2,-3,4]
+# if i>0:
+#     print("positive")
+#     count = len(i)
+
+# elif i==0:
+#     print("zero")
+
+# else i<0:
+#      print("negative")
+
+
+# str_a="HeLLO"
+# a=str_a.upper()
+# print(f"{a}")
+
+# text = "abc123@"
+
+# digit_count = sum(char.isdigit() for char in text)
+# alpha_count = sum(char.isalpha() for char in text)
+# special_char = sum(char.isspace() for char in text)
+
+# print("Digits:", digit_count)
+# print("Alphabate:", alpha_count)
+# print("Special char:", special_char)
+
+
+# text = "education"
+# vowels = "aeiouAEIOU"
+# result = ''.join([char for char in text if char not in vowels])
+# print(result)
+
+
+# from collections import Counter
+
+# word = "banana"
+# char_count = Counter(word)
+
+# print(char_count)
+
+
+str1 = "hello"
+str2 = "hello"
+
+if str1 == str2:
+    print("True")
+else:
+    print("False")
